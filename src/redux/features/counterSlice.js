@@ -7,11 +7,14 @@ import { createSlice } from "@reduxjs/toolkit";
 
     },
     reducers:{
-        increment :()=>{
+        increment :(state)=>{
+            state.value += 1
 
         },
-        decrement :()=>{
+        decrement :(state)=>{
+            state.value -= 1
             
         }
     }
  })
+ export const {increment, decrement} = counterSlice.actions
