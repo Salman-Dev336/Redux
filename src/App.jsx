@@ -39,7 +39,7 @@ const App = () => {
 
       <button
         onClick={() => {
-          dispatch(increaseby5(10));
+          dispatch(increaseby5(Number(num)));
         }}
       >
         increase by 10
