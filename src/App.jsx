@@ -20,6 +20,9 @@ const App = () => {
 
       }}>decrement</button>
 
+       <input type="number"  />
+
+
       <button onClick={()=>{
         dispatch(increaseby5(10))
       }}>

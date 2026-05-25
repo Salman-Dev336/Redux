@@ -5,7 +5,7 @@ h1{
  
 }
 
-button{
+button, input{
   padding: 20px 40px;
   margin: 10px;
   font-size: 20px;
